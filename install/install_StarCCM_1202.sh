@@ -9,9 +9,12 @@ mkdir -p /mnt/resource/scratch/applications
 mkdir -p /mnt/resource/scratch/INSTALLERS
 
 cd /mnt/resource/scratch/INSTALLERS
+
+sudo yum install -y libXext libXt
+axel -q -n 50 http://azbenchmarkstorage.blob.core.windows.net/cdadapcobenchmarkstorage/STAR-CCM+12.02.010_01_linux-x86_64.tar.gz
+tar xzf STAR-CCM+12.02.010_01_linux-x86_64.tar.gz
+
 #wget -q http://azbenchmarkstorage.blob.core.windows.net/cdadapcobenchmarkstorage/STAR-CCM+12.02.010_01_linux-x86_64.tar.gz -O - | tar zx
-axel http://azbenchmarkstorage.blob.core.windows.net/cdadapcobenchmarkstorage/STAR-CCM+12.02.010_01_linux-x86_64.tar.gz
-tar zx STAR-CCM+12.02.010_01_linux-x86_64.tar.gz
 
 cd /mnt/resource/scratch/INSTALLERS/starccm+_12.02.010
 
