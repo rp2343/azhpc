@@ -41,6 +41,6 @@ runPotentialFoam=true
 storageAccountName=paedwar
 storageContainerName=azhpc
 storageBenchmarkPath=benchmarks
-storageBenchmarkName=motorbike82M
+storageBenchmarkName=motorbike20M
 storageSasKey=
 runPotentialFoam=
