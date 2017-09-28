@@ -14,7 +14,7 @@ rsaPublicKey=$(cat ~/.ssh/id_rsa.pub)
 
 numberOfNodesToTest="8 16"
 processesPerNode=16
-podKey=
+podKey=cP8vEXg/vD4xUOK8u1bWbA
 
 linpack_N=69120
 linpack_P=1
