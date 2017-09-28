@@ -36,3 +36,9 @@ cosmos_account=ninadb
 cosmos_database=Nina
 cosmos_collection=Results
 cosmos_key=$(az keyvault secret show --name cosmoskey --vault-name NinaVault | jq '.value' -r)
+
+storageAccountName=paedwar
+storageContainerName=azhpc
+storageBenchmarkPath=benchmarks
+storageBenchmarkName=motorbike82M
+storageSasKey='?sv=2016-05-31&si=azhpc-rw&sr=c&sig=SIj%2BwhmwdjsstxykYMu8tfnx8qbCAUKnD1HlCwVnfI4%3D'
